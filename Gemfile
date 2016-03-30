@@ -50,8 +50,8 @@ group :production do
 end
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  # gem 'web-console', '~> 2.0'
+  gem 'capistrano', '~> 3.2.1'
+  gem 'capistrano-secrets-yml', '~> 1.0.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
